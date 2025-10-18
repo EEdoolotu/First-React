@@ -8,8 +8,8 @@ const root = createRoot(document.getElementById("root"))
 
 
 root.render (
-    <>
+    <div className="page-container">
         <App />
-    </>
+    </div>
     
 )

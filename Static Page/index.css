@@ -1,5 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body, #root {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    color: white;
+    font-size: 1.8rem;
+    font-family: Inter;
+
+}
+
+.page-container {
+    border: 5px solid white;
+    border-radius: 15px;
+    background-color: grey;
+}
+
 header {
     display: flex;
     align-items: center;
     color: #61DAFB;
+    background-color: black;
+    border: transparent;
+    border-radius: 10px 10px 0 0 
+}
+
+h1 {
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+li {
+    margin-right: 10px;
+}
+
+main {
+    margin: 15px 30px 15px 30px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: right 105%;
+    
+    
 }
